@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="practice.test.IntegrationTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuit"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="signin"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- practice.test.IntegrationTest -->
+      <class name="practice.test.SmokeTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuit"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="search"/>
+          <include name="catagory"/>
+          <include name="beforeClass"/>
+          <include name="signin"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- practice.test.SmokeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

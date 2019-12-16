@@ -1,0 +1,114 @@
+2019-11-05 16:33:16,176 INFO  [BaseTest] File initialized 
+2019-11-05 16:33:22,766 INFO  [BaseTest] File initialized 
+2019-11-05 16:33:35,261 INFO  [BaseTest] File initialized 
+2019-11-05 16:33:45,474 INFO  [BaseTest] File initialized 
+2019-11-05 16:33:55,496 INFO  [BaseTest] File initialized 2019-11-05 17:20:09,065 INFO  [BaseTest] File initialized 
+2019-11-05 17:20:12,464 INFO  [BaseTest] File initialized 
+2019-11-05 17:20:12,909 INFO  [BaseTest] catagoryfailed 
+2019-11-05 17:20:13,006 INFO  [BaseTest] File initialized 
+2019-11-05 17:20:13,374 INFO  [BaseTest] signinfailed 
+2019-11-05 17:20:13,451 INFO  [BaseTest] File initialized 
+2019-11-05 17:20:13,841 INFO  [BaseTest] signinfailed 
+2019-11-05 17:20:13,927 INFO  [BaseTest] File initialized 
+2019-11-05 17:20:14,326 INFO  [BaseTest] searchfailed 
+2019-11-05 17:23:18,826 INFO  [BaseTest] File initialized 
+2019-11-05 17:23:24,730 INFO  [BaseTest] File initialized 
+2019-11-05 17:23:35,410 INFO  [BaseTest] catagoryfailed 
+2019-11-05 17:23:37,048 INFO  [BaseTest] File initialized 
+2019-11-05 17:23:47,633 INFO  [BaseTest] File initialized 
+2019-11-05 17:23:57,755 INFO  [BaseTest] File initialized 
+2019-11-05 17:25:11,218 INFO  [BaseTest] File initialized 
+2019-11-05 17:25:17,678 INFO  [BaseTest] File initialized 
+2019-11-05 17:25:28,113 INFO  [BaseTest] catagoryfailed 
+2019-11-05 17:25:29,821 INFO  [BaseTest] File initialized 
+2019-11-05 17:25:40,599 INFO  [BaseTest] File initialized 
+2019-11-05 17:25:50,687 INFO  [BaseTest] File initialized 
+2019-11-05 17:33:13,385 INFO  [BaseTest] File initialized 
+2019-11-05 17:33:19,786 INFO  [BaseTest] File initialized 
+2019-11-05 17:33:30,352 INFO  [BaseTest] catagoryfailed 
+2019-11-05 17:33:32,069 INFO  [BaseTest] File initialized 
+2019-11-05 17:33:43,026 INFO  [BaseTest] File initialized 
+2019-11-05 17:33:52,900 INFO  [BaseTest] File initialized 
+2019-11-05 17:36:00,885 INFO  [BaseTest] File initialized 
+2019-11-05 17:36:07,285 INFO  [BaseTest] File initialized 
+2019-11-05 17:36:17,767 INFO  [BaseTest] searchfailed 
+2019-11-05 17:36:53,789 INFO  [BaseTest] File initialized 
+2019-11-05 17:37:00,075 INFO  [BaseTest] File initialized 
+2019-11-05 17:37:10,656 INFO  [BaseTest] catagoryfailed 
+2019-11-05 17:37:12,381 INFO  [BaseTest] File initialized 
+2019-11-05 17:37:23,213 INFO  [BaseTest] File initialized 
+2019-11-05 17:37:32,994 INFO  [BaseTest] File initialized 
+2019-11-05 17:37:43,564 INFO  [BaseTest] searchfailed 
+2019-11-05 17:51:06,043 INFO  [BaseTest] File initialized 
+2019-11-05 17:51:12,631 INFO  [BaseTest] File initialized 
+2019-11-05 17:51:23,174 INFO  [BaseTest] catagoryfailed 
+2019-11-05 17:51:25,041 INFO  [BaseTest] File initialized 
+2019-11-05 17:51:35,894 INFO  [BaseTest] File initialized 
+2019-11-05 17:51:45,970 INFO  [BaseTest] File initialized 
+2019-11-05 17:51:56,836 INFO  [BaseTest] searchfailed 
+2019-11-05 18:07:03,787 INFO  [BaseTest] File initialized 
+2019-11-05 18:07:10,346 INFO  [BaseTest] File initialized 
+2019-11-05 18:07:20,825 INFO  [BaseTest] catagoryfailed 
+2019-11-05 18:07:23,692 INFO  [BaseTest] File initialized 
+2019-11-05 18:07:34,211 INFO  [BaseTest] File initialized 
+2019-11-05 18:07:44,936 INFO  [BaseTest] File initialized 
+2019-11-05 18:07:55,526 INFO  [BaseTest] searchfailed 
+2019-11-05 18:09:15,928 INFO  [BaseTest] File initialized 
+2019-11-05 18:09:22,234 INFO  [BaseTest] File initialized 
+2019-11-05 18:09:32,651 INFO  [BaseTest] catagoryfailed 
+2019-11-05 18:09:34,371 INFO  [BaseTest] File initialized 
+2019-11-05 18:09:45,336 INFO  [BaseTest] File initialized 
+2019-11-05 18:09:55,543 INFO  [BaseTest] File initialized 
+2019-11-05 18:12:29,798 INFO  [BaseTest] File initialized 
+2019-11-05 18:12:34,970 INFO  [BaseTest] File initialized 
+2019-11-05 18:12:45,202 INFO  [BaseTest] catagoryfailed 
+2019-11-05 18:12:46,453 INFO  [BaseTest] File initialized 
+2019-11-05 18:12:55,770 INFO  [BaseTest] File initialized 
+2019-11-05 18:13:04,984 INFO  [BaseTest] File initialized 
+2019-11-05 18:13:15,046 INFO  [BaseTest] searchfailed 
+2019-11-05 18:27:18,684 INFO  [BaseTest] File initialized 
+2019-11-05 18:27:23,959 INFO  [BaseTest] File initialized 
+2019-11-05 18:27:34,108 INFO  [BaseTest] catagoryfailed 
+2019-11-05 18:27:35,400 INFO  [BaseTest] File initialized 
+2019-11-05 18:27:44,686 INFO  [BaseTest] File initialized 
+2019-11-05 18:27:54,088 INFO  [BaseTest] File initialized 
+2019-11-05 18:28:03,959 INFO  [BaseTest] searchfailed 
+2019-11-07 17:18:07,056 INFO  [BaseTest] File initialized 
+2019-11-07 17:18:13,604 INFO  [BaseTest] File initialized 
+2019-11-07 17:18:23,865 INFO  [BaseTest] catagoryfailed 
+2019-11-07 17:18:24,371 INFO  [BaseTest] catagoryskipped 
+2019-11-07 17:18:24,371 INFO  [BaseTest] passed 
+2019-11-07 17:18:25,742 INFO  [BaseTest] File initialized 
+2019-11-07 17:18:33,654 INFO  [BaseTest] passed 
+2019-11-07 17:18:34,936 INFO  [BaseTest] File initialized 
+2019-11-07 17:18:42,556 INFO  [BaseTest] passed 
+2019-11-07 17:18:43,779 INFO  [BaseTest] File initialized 
+2019-11-07 17:18:53,766 INFO  [BaseTest] searchfailed 
+2019-11-07 17:18:54,126 INFO  [BaseTest] searchskipped 
+2019-11-07 17:18:54,126 INFO  [BaseTest] passed 
+2019-11-07 17:23:07,827 INFO  [BaseTest] File initialized 
+2019-11-07 17:23:12,827 INFO  [BaseTest] File initialized 
+2019-11-07 17:23:23,132 INFO  [BaseTest] catagoryfailed 
+2019-11-07 17:23:23,667 INFO  [BaseTest] catagoryskipped 
+2019-11-07 17:23:23,668 INFO  [BaseTest] passed 
+2019-11-07 17:23:25,064 INFO  [BaseTest] File initialized 
+2019-11-07 17:23:33,246 INFO  [BaseTest] passed 
+2019-11-07 17:23:34,306 INFO  [BaseTest] File initialized 
+2019-11-07 17:23:41,963 INFO  [BaseTest] passed 
+2019-11-07 17:23:43,736 INFO  [BaseTest] File initialized 
+2019-11-07 17:23:53,626 INFO  [BaseTest] searchfailed 
+2019-11-07 17:23:53,990 INFO  [BaseTest] searchskipped 
+2019-11-07 17:23:53,991 INFO  [BaseTest] passed 
+2019-12-07 16:29:58,840 INFO  [BaseTest] File initialized 
+2019-12-07 16:30:08,626 INFO  [BaseTest] File initialized 
+2019-12-07 16:30:22,318 INFO  [BaseTest] catagoryfailed 
+2019-12-07 16:30:22,731 INFO  [BaseTest] catagoryskipped 
+2019-12-07 16:30:22,731 INFO  [BaseTest] passed 
+2019-12-07 16:30:26,202 INFO  [BaseTest] File initialized 
+2019-12-07 16:30:34,854 INFO  [BaseTest] passed 
+2019-12-07 16:30:37,869 INFO  [BaseTest] File initialized 
+2019-12-07 16:30:46,314 INFO  [BaseTest] passed 
+2019-12-07 16:30:49,342 INFO  [BaseTest] File initialized 
+2019-12-07 16:31:11,151 INFO  [BaseTest] passed 
+2019-12-07 17:14:15,928 INFO  [BaseTest] File initialized 
+2019-12-07 17:16:14,666 INFO  [BaseTest] File initialized 

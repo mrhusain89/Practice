@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite1" parallel= "tests">
+	<test name="test1">
+		<classes>
+			
+			<class name="practice.test.SmokeTest"/>
+
+			
+		</classes>
+	</test>
+	
+	<!-- <test name="test2">
+		<classes>
+			<class name="practice.test.IntegrationTest">
+			
+
+			</class>
+		</classes>
+	</test> -->
+
+</suite>

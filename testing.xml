@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite1">
+<listeners>
+	<listener class-name="practice.test.BaseListener">
+	</listener>
+</listeners>
+
+
+	<test name="sampleTest">
+		<classes>
+			<class name="practice.test.SmokeTest">
+				<methods>
+					<include name="search"/>
+					<exclude name="catagory"/>
+					<exclude name="signin"/>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+
+</suite>
