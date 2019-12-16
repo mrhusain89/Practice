@@ -4,6 +4,9 @@
 	<test name="test1">
 		<classes>
 			<class name="practice.test.SmokeTest">
+			<methods>
+			<include name="signin"></include>
+			</methods>
 
 			</class>
 		</classes>
