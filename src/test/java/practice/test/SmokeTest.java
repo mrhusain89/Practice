@@ -20,7 +20,7 @@ public class SmokeTest extends BaseTest {
 	CoatsAndJacketsPage coatsAndJacketsPage;
 	SigninPage signinPage;
 	
-	/*@Test(priority=3)
+	@Test(priority=3)
 	public void search() throws InterruptedException {
 		h=new HomePage(driver);
 		h.typeonsearch();
@@ -47,7 +47,7 @@ public class SmokeTest extends BaseTest {
 		
 	}
 	
-	*/@Test(priority=2, dataProviderClass= DataDrivenTest.class, dataProvider = "login")
+	@Test(priority=2, dataProviderClass= DataDrivenTest.class, dataProvider = "login")
 	public void signin(String myemail,String mypassword) throws InterruptedException {
 		h=new HomePage(driver);
 		h.selctAccount();

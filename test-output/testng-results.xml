@@ -1,113 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="suite1" duration-ms="77978" started-at="2019-12-07T21:29:58Z" finished-at="2019-12-07T21:31:16Z">
+  <suite name="Default suite" duration-ms="31879" started-at="2019-12-16T18:40:57Z" finished-at="2019-12-16T18:41:29Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="77978" started-at="2019-12-07T21:29:58Z" finished-at="2019-12-07T21:31:16Z">
+    <test name="Default test" duration-ms="31879" started-at="2019-12-16T18:40:57Z" finished-at="2019-12-16T18:41:29Z">
       <class name="practice.test.SmokeTest">
-        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="beforeSuit" is-config="true" duration-ms="104" started-at="2019-12-07T21:29:58Z" finished-at="2019-12-07T21:29:58Z">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="beforeSuit" is-config="true" duration-ms="93" started-at="2019-12-16T18:40:57Z" finished-at="2019-12-16T18:40:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="beforeTest" is-config="true" duration-ms="6" started-at="2019-12-07T21:29:58Z" finished-at="2019-12-07T21:29:58Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-12-16T18:40:57Z" finished-at="2019-12-16T18:40:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="beforeClass" is-config="true" duration-ms="3659" started-at="2019-12-07T21:29:58Z" finished-at="2019-12-07T21:30:02Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="beforeClass" is-config="true" duration-ms="3300" started-at="2019-12-16T18:40:57Z" finished-at="2019-12-16T18:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="6076" started-at="2019-12-07T21:30:02Z" finished-at="2019-12-07T21:30:08Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="beforeMethod" is-config="true" duration-ms="4723" started-at="2019-12-16T18:41:01Z" finished-at="2019-12-16T18:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="catagory()[pri:1, instance:practice.test.SmokeTest@66a3ffec]" name="catagory" duration-ms="13218" started-at="2019-12-07T21:30:08Z" finished-at="2019-12-07T21:30:21Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='mainContainer']/div[6]//ul/li[3]"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-EEV72M3', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Urmi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a7745dc2575624cc0cf479aa442d79ad
-*** Element info: {Using=xpath, value=//div[@id='mainContainer']/div[6]//ul/li[3]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='mainContainer']/div[6]//ul/li[3]"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
-System info: host: 'DESKTOP-EEV72M3', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Urmi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a7745dc2575624cc0cf479aa442d79ad
-*** Element info: {Using=xpath, value=//div[@id='mainContainer']/div[6]//ul/li[3]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy17.click(Unknown Source)
-at utility.Shared.click(Shared.java:47)
-at pages.ToddlerClothingPage.selectBoysClothing(ToddlerClothingPage.java:24)
-at practice.test.SmokeTest.catagory(SmokeTest.java:45)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- catagory -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="afterMethod" is-config="true" duration-ms="881" started-at="2019-12-07T21:30:21Z" finished-at="2019-12-07T21:30:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=catagory status=FAILURE method=SmokeTest.catagory()[pri:1, instance:practice.test.SmokeTest@66a3ffec] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="3460" started-at="2019-12-07T21:30:22Z" finished-at="2019-12-07T21:30:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@66a3ffec]" name="signin" duration-ms="8649" started-at="2019-12-07T21:30:26Z" data-provider="login" finished-at="2019-12-07T21:30:34Z">
+        <test-method status="PASS" signature="signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@3bfdc050]" name="signin" duration-ms="8125" started-at="2019-12-16T18:41:05Z" data-provider="login" finished-at="2019-12-16T18:41:14Z">
           <params>
             <param index="0">
               <value>
@@ -123,22 +39,22 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-07T21:30:34Z" finished-at="2019-12-07T21:30:34Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-16T18:41:14Z" finished-at="2019-12-16T18:41:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signin status=SUCCESS method=SmokeTest.signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@66a3ffec] output={null}]]]>
+                <![CDATA[[TestResult name=signin status=SUCCESS method=SmokeTest.signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@3bfdc050] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="3014" started-at="2019-12-07T21:30:34Z" finished-at="2019-12-07T21:30:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="beforeMethod" is-config="true" duration-ms="2076" started-at="2019-12-16T18:41:14Z" finished-at="2019-12-16T18:41:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@66a3ffec]" name="signin" duration-ms="8443" started-at="2019-12-07T21:30:37Z" data-provider="login" finished-at="2019-12-07T21:30:46Z">
+        <test-method status="PASS" signature="signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@3bfdc050]" name="signin" duration-ms="8007" started-at="2019-12-16T18:41:16Z" data-provider="login" finished-at="2019-12-16T18:41:24Z">
           <params>
             <param index="0">
               <value>
@@ -154,49 +70,30 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="3029" started-at="2019-12-07T21:30:46Z" finished-at="2019-12-07T21:30:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-12-07T21:30:46Z" finished-at="2019-12-07T21:30:46Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-16T18:41:24Z" finished-at="2019-12-16T18:41:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signin status=SUCCESS method=SmokeTest.signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@66a3ffec] output={null}]]]>
+                <![CDATA[[TestResult name=signin status=SUCCESS method=SmokeTest.signin(java.lang.String, java.lang.String)[pri:2, instance:practice.test.SmokeTest@3bfdc050] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="search()[pri:3, instance:practice.test.SmokeTest@66a3ffec]" name="search" duration-ms="21806" started-at="2019-12-07T21:30:49Z" finished-at="2019-12-07T21:31:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-07T21:31:11Z" finished-at="2019-12-07T21:31:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=search status=SUCCESS method=SmokeTest.search()[pri:3, instance:practice.test.SmokeTest@66a3ffec] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="afterClass" is-config="true" duration-ms="671" started-at="2019-12-07T21:31:11Z" finished-at="2019-12-07T21:31:11Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="afterClass" is-config="true" duration-ms="614" started-at="2019-12-16T18:41:24Z" finished-at="2019-12-16T18:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="afterTest" is-config="true" duration-ms="5000" started-at="2019-12-07T21:31:11Z" finished-at="2019-12-07T21:31:16Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="afterTest" is-config="true" duration-ms="5001" started-at="2019-12-16T18:41:24Z" finished-at="2019-12-16T18:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:practice.test.SmokeTest@66a3ffec]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-12-07T21:31:16Z" finished-at="2019-12-07T21:31:16Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:practice.test.SmokeTest@3bfdc050]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-12-16T18:41:29Z" finished-at="2019-12-16T18:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- practice.test.SmokeTest -->
-    </test> <!-- test1 -->
-  </suite> <!-- suite1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
