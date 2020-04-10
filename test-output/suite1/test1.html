@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 07 16:29:58 EST 2019</td>
+<td>Started on:</td><td>Wed Mar 25 18:30:03 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>77 seconds (77978 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15157 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='practice.test.SmokeTest.catagory()'><b>catagory</b><br>Test class: practice.test.SmokeTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;mainContainer&apos;]/div[6]//ul/li[3]&quot;}
-  (Session info: chrome=78.0.3904.108)
+<td title='practice.test.IntegrationTest.signin()'><b>signin</b><br>Test class: practice.test.IntegrationTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;NavigationList-sc-1ltyzy8-0 iHsBIj&apos;]/li[1]&quot;}
+  (Session info: chrome=80.0.3987.149)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
 System info: host: &apos;DESKTOP-EEV72M3&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Urmi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a7745dc2575624cc0cf479aa442d79ad
-*** Element info: {Using=xpath, value=//div[@id=&apos;mainContainer&apos;]/div[6]//ul/li[3]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Urmi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 106e31866ed2d4330ab46fe5356c09b3
+*** Element info: {Using=xpath, value=//ul[@class=&apos;NavigationList-sc-1ltyzy8-0 iHsBIj&apos;]/li[1]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -99,22 +99,18 @@ Session ID: a7745dc2575624cc0cf479aa442d79ad
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy17.click(Unknown Source)
 	at utility.Shared.click(Shared.java:47)
-	at pages.ToddlerClothingPage.selectBoysClothing(ToddlerClothingPage.java:24)
-	at practice.test.SmokeTest.catagory(SmokeTest.java:45)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace927746355", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace927746355'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;mainContainer&apos;]/div[6]//ul/li[3]&quot;}
-  (Session info: chrome=78.0.3904.108)
+	at pages.HomePage.selectSignin(HomePage.java:67)
+	at practice.test.IntegrationTest.signin(IntegrationTest.java:18)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace40170008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace40170008'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;NavigationList-sc-1ltyzy8-0 iHsBIj&apos;]/li[1]&quot;}
+  (Session info: chrome=80.0.3987.149)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
 System info: host: &apos;DESKTOP-EEV72M3&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Urmi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a7745dc2575624cc0cf479aa442d79ad
-*** Element info: {Using=xpath, value=//div[@id=&apos;mainContainer&apos;]/div[6]//ul/li[3]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Urmi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 106e31866ed2d4330ab46fe5356c09b3
+*** Element info: {Using=xpath, value=//ul[@class=&apos;NavigationList-sc-1ltyzy8-0 iHsBIj&apos;]/li[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -133,8 +129,8 @@ Session ID: a7745dc2575624cc0cf479aa442d79ad
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy17.click(Unknown Source)
 	at utility.Shared.click(Shared.java:47)
-	at pages.ToddlerClothingPage.selectBoysClothing(ToddlerClothingPage.java:24)
-	at practice.test.SmokeTest.catagory(SmokeTest.java:45)
+	at pages.HomePage.selectSignin(HomePage.java:67)
+	at practice.test.IntegrationTest.signin(IntegrationTest.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -148,39 +144,21 @@ Session ID: a7745dc2575624cc0cf479aa442d79ad
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
 	at org.testng.TestRunner.run(TestRunner.java:505)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>13</td>
-<td>practice.test.SmokeTest@66a3ffec</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='practice.test.SmokeTest.search()'><b>search</b><br>Test class: practice.test.SmokeTest</td>
-<td></td>
-<td>21</td>
-<td>practice.test.SmokeTest@66a3ffec</td></tr>
-<tr>
-<td title='practice.test.SmokeTest.signin()'><b>signin</b><br>Test class: practice.test.SmokeTest<br>Parameters: myemail, mypassword</td>
-<td></td>
-<td>8</td>
-<td>practice.test.SmokeTest@66a3ffec</td></tr>
-<tr>
-<td title='practice.test.SmokeTest.signin()'><b>signin</b><br>Test class: practice.test.SmokeTest<br>Parameters: myemail1, mypassword1</td>
-<td></td>
-<td>8</td>
-<td>practice.test.SmokeTest@66a3ffec</td></tr>
+<td>3</td>
+<td>practice.test.IntegrationTest@42d80b78</td></tr>
 </table><p>
 </body>
 </html>

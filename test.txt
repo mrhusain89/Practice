@@ -117,3 +117,143 @@
 2019-12-16 13:41:14,086 INFO  [BaseTest] passed 
 2019-12-16 13:41:16,162 INFO  [BaseTest] File initialized 
 2019-12-16 13:41:24,172 INFO  [BaseTest] passed 
+2019-12-17 19:53:33,080 INFO  [BaseTest] File initialized 
+2019-12-17 20:00:12,095 INFO  [BaseTest] File initialized 
+2019-12-17 20:00:44,091 INFO  [BaseTest] File initialized 
+2019-12-17 20:06:36,270 INFO  [BaseTest] File initialized 
+2019-12-17 20:06:42,877 INFO  [BaseTest] File initialized 
+2019-12-17 20:06:43,463 INFO  [BaseTest] catagoryfailed 
+2019-12-17 20:06:43,922 INFO  [BaseTest] catagoryskipped 
+2019-12-17 20:06:43,922 INFO  [BaseTest] passed 
+2019-12-17 20:06:45,674 INFO  [BaseTest] File initialized 
+2019-12-17 20:06:54,230 INFO  [BaseTest] passed 
+2019-12-17 20:06:55,472 INFO  [BaseTest] File initialized 
+2019-12-17 20:07:03,685 INFO  [BaseTest] passed 
+2019-12-17 20:07:04,973 INFO  [BaseTest] File initialized 
+2019-12-17 20:07:11,756 INFO  [BaseTest] searchfailed 
+2019-12-17 20:07:12,173 INFO  [BaseTest] searchskipped 
+2019-12-17 20:07:12,173 INFO  [BaseTest] passed 
+2019-12-17 20:07:52,046 INFO  [BaseTest] File initialized 
+2019-12-17 20:07:57,875 INFO  [BaseTest] File initialized 
+2019-12-17 20:08:06,177 INFO  [BaseTest] passed 
+2019-12-17 20:08:07,845 INFO  [BaseTest] File initialized 
+2019-12-17 20:08:15,921 INFO  [BaseTest] passed 
+2019-12-18 16:40:56,352 INFO  [BaseTest] File initialized 
+2020-02-12 18:57:43,371 INFO  [BaseTest] File initialized 
+2020-02-12 19:01:40,214 INFO  [BaseTest] File initialized 
+2020-02-12 19:03:37,173 INFO  [BaseTest] File initialized 
+2020-02-12 19:04:12,170 INFO  [BaseTest] File initialized 
+2020-02-12 19:04:15,844 INFO  [BaseTest] signinfailed 
+2020-02-12 19:04:16,226 INFO  [BaseTest] signinskipped 
+2020-02-12 19:04:16,226 INFO  [BaseTest] passed 
+2020-02-12 19:04:26,130 INFO  [BaseTest] File initialized 
+2020-02-12 19:04:29,718 INFO  [BaseTest] signinfailed 
+2020-02-12 19:04:30,064 INFO  [BaseTest] signinskipped 
+2020-02-12 19:04:30,064 INFO  [BaseTest] passed 
+2020-02-12 19:05:40,955 INFO  [BaseTest] File initialized 
+2020-02-12 19:06:16,015 INFO  [BaseTest] File initialized 
+2020-02-12 19:06:17,249 INFO  [BaseTest] searchfailed 
+2020-02-12 19:06:17,593 INFO  [BaseTest] searchskipped 
+2020-02-12 19:06:17,593 INFO  [BaseTest] passed 
+2020-02-12 19:08:50,438 INFO  [BaseTest] File initialized 
+2020-02-12 19:18:51,494 INFO  [BaseTest] File initialized 
+2020-02-12 19:19:51,738 INFO  [BaseTest] File initialized 
+2020-02-12 19:21:42,517 INFO  [BaseTest] File initialized 
+2020-02-12 19:22:14,815 INFO  [BaseTest] File initialized 
+2020-02-12 19:22:15,512 INFO  [BaseTest] catagoryfailed 
+2020-02-12 19:22:15,999 INFO  [BaseTest] catagoryskipped 
+2020-02-12 19:22:15,999 INFO  [BaseTest] passed 
+2020-02-12 19:22:19,821 INFO  [BaseTest] File initialized 
+2020-02-12 19:22:23,406 INFO  [BaseTest] signinfailed 
+2020-02-12 19:22:23,788 INFO  [BaseTest] signinskipped 
+2020-02-12 19:22:23,789 INFO  [BaseTest] passed 
+2020-02-12 19:22:25,831 INFO  [BaseTest] File initialized 
+2020-02-12 19:22:29,459 INFO  [BaseTest] signinfailed 
+2020-02-12 19:22:29,828 INFO  [BaseTest] signinskipped 
+2020-02-12 19:22:29,828 INFO  [BaseTest] passed 
+2020-02-12 19:22:32,247 INFO  [BaseTest] File initialized 
+2020-02-12 19:22:33,357 INFO  [BaseTest] searchfailed 
+2020-02-12 19:22:33,839 INFO  [BaseTest] searchskipped 
+2020-02-12 19:22:33,840 INFO  [BaseTest] passed 
+2020-02-12 19:52:28,024 INFO  [BaseTest] File initialized 
+2020-02-12 19:54:13,091 INFO  [BaseTest] File initialized 
+2020-02-12 19:54:47,775 INFO  [BaseTest] File initialized 
+2020-02-12 19:54:48,393 INFO  [BaseTest] catagoryfailed 
+2020-02-12 19:54:48,899 INFO  [BaseTest] catagoryskipped 
+2020-02-12 19:54:48,900 INFO  [BaseTest] passed 
+2020-02-12 19:54:52,732 INFO  [BaseTest] File initialized 
+2020-02-12 19:54:56,420 INFO  [BaseTest] signinfailed 
+2020-02-12 19:54:56,817 INFO  [BaseTest] signinskipped 
+2020-02-12 19:54:56,817 INFO  [BaseTest] passed 
+2020-02-12 19:55:06,893 INFO  [BaseTest] File initialized 
+2020-02-12 19:55:10,495 INFO  [BaseTest] signinfailed 
+2020-02-12 19:55:10,852 INFO  [BaseTest] signinskipped 
+2020-02-12 19:55:10,852 INFO  [BaseTest] passed 
+2020-02-12 19:55:12,837 INFO  [BaseTest] File initialized 
+2020-02-12 19:55:14,095 INFO  [BaseTest] searchfailed 
+2020-02-12 19:55:14,609 INFO  [BaseTest] searchskipped 
+2020-02-12 19:55:14,611 INFO  [BaseTest] passed 
+2020-02-12 20:00:44,384 INFO  [BaseTest] File initialized 
+2020-02-12 20:01:15,060 INFO  [BaseTest] File initialized 
+2020-02-12 20:01:18,673 INFO  [BaseTest] signinfailed 
+2020-02-12 20:01:19,047 INFO  [BaseTest] signinskipped 
+2020-02-12 20:01:19,047 INFO  [BaseTest] passed 
+2020-02-12 20:02:21,124 INFO  [BaseTest] File initialized 
+2020-02-12 20:03:09,470 INFO  [BaseTest] File initialized 
+2020-02-12 20:03:13,140 INFO  [BaseTest] signinfailed 
+2020-02-12 20:03:13,529 INFO  [BaseTest] signinskipped 
+2020-02-12 20:03:13,529 INFO  [BaseTest] passed 
+2020-02-12 20:05:06,561 INFO  [BaseTest] File initialized 
+2020-02-12 20:05:41,101 INFO  [BaseTest] File initialized 
+2020-02-12 20:05:44,796 INFO  [BaseTest] signinfailed 
+2020-02-12 20:05:45,192 INFO  [BaseTest] signinskipped 
+2020-02-12 20:05:45,193 INFO  [BaseTest] passed 
+2020-02-12 20:05:50,849 INFO  [BaseTest] File initialized 
+2020-02-12 20:06:18,377 INFO  [BaseTest] File initialized 
+2020-02-12 20:06:18,918 INFO  [BaseTest] catagoryfailed 
+2020-02-12 20:06:19,413 INFO  [BaseTest] catagoryskipped 
+2020-02-12 20:06:19,413 INFO  [BaseTest] passed 
+2020-02-12 20:06:27,210 INFO  [BaseTest] File initialized 
+2020-02-12 20:06:30,905 INFO  [BaseTest] signinfailed 
+2020-02-12 20:06:31,291 INFO  [BaseTest] signinskipped 
+2020-02-12 20:06:31,291 INFO  [BaseTest] passed 
+2020-02-12 20:06:39,601 INFO  [BaseTest] File initialized 
+2020-02-12 20:06:43,231 INFO  [BaseTest] signinfailed 
+2020-02-12 20:06:43,625 INFO  [BaseTest] signinskipped 
+2020-02-12 20:06:43,625 INFO  [BaseTest] passed 
+2020-02-12 20:06:45,273 INFO  [BaseTest] File initialized 
+2020-02-12 20:06:46,358 INFO  [BaseTest] searchfailed 
+2020-02-12 20:06:46,692 INFO  [BaseTest] searchskipped 
+2020-02-12 20:06:46,693 INFO  [BaseTest] passed 
+2020-02-13 15:18:06,441 INFO  [BaseTest] File initialized 
+2020-02-13 15:18:13,304 INFO  [BaseTest] File initialized 
+2020-02-13 15:18:16,933 INFO  [BaseTest] signinfailed 
+2020-02-13 15:18:17,087 INFO  [BaseTest] File initialized 
+2020-02-13 15:18:23,589 INFO  [BaseTest] File initialized 
+2020-02-13 15:18:24,281 INFO  [BaseTest] catagoryfailed 
+2020-02-13 15:18:24,741 INFO  [BaseTest] catagoryskipped 
+2020-02-13 15:18:24,741 INFO  [BaseTest] passed 
+2020-02-13 15:18:26,789 INFO  [BaseTest] File initialized 
+2020-02-13 15:18:30,582 INFO  [BaseTest] signinfailed 
+2020-02-13 15:18:30,935 INFO  [BaseTest] signinskipped 
+2020-02-13 15:18:30,936 INFO  [BaseTest] passed 
+2020-02-13 15:18:32,834 INFO  [BaseTest] File initialized 
+2020-02-13 15:18:36,706 INFO  [BaseTest] signinfailed 
+2020-02-13 15:18:37,092 INFO  [BaseTest] signinskipped 
+2020-02-13 15:18:37,092 INFO  [BaseTest] passed 
+2020-02-13 15:18:39,214 INFO  [BaseTest] File initialized 
+2020-02-13 15:18:40,353 INFO  [BaseTest] searchfailed 
+2020-02-13 15:18:40,702 INFO  [BaseTest] searchskipped 
+2020-02-13 15:18:40,702 INFO  [BaseTest] passed 
+2020-02-13 15:19:06,605 INFO  [BaseTest] File initialized 
+2020-03-25 18:10:12,207 INFO  [BaseTest] File initialized 
+2020-03-25 18:11:08,589 INFO  [BaseTest] File initialized 
+2020-03-25 18:11:26,696 INFO  [BaseTest] File initialized 
+2020-03-25 18:13:56,907 INFO  [BaseTest] File initialized 
+2020-03-25 18:28:29,540 INFO  [BaseTest] File initialized 
+2020-03-25 18:29:33,995 INFO  [BaseTest] File initialized 
+2020-03-25 18:30:03,066 INFO  [BaseTest] File initialized 
+2020-03-25 18:30:07,891 INFO  [BaseTest] File initialized 
+2020-03-25 18:30:12,241 INFO  [BaseTest] signinfailed 
+2020-03-25 18:30:12,617 INFO  [BaseTest] signinskipped 
+2020-03-25 18:30:12,617 INFO  [BaseTest] passed 

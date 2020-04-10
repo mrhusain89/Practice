@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]" parallel="tests">
-  <test thread-count="5" name="test1(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]">
+  <test thread-count="5" name="test1(failed)">
     <classes>
-      <class name="practice.test.SmokeTest">
+      <class name="practice.test.IntegrationTest">
         <methods>
           <include name="afterTest"/>
           <include name="afterClass"/>
@@ -11,11 +11,11 @@
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
-          <include name="catagory"/>
+          <include name="signin"/>
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- practice.test.SmokeTest -->
+      </class> <!-- practice.test.IntegrationTest -->
     </classes>
   </test> <!-- test1(failed) -->
 </suite> <!-- Failed suite [suite1] -->

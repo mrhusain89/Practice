@@ -26,7 +26,6 @@ public class HomePage {
 	WebElement exploreAll;
 	@FindBy(xpath = "//nav[@class='HeaderMain-iff7dg-0 headerMain KOTZw']/a[3]/span[1]")
 	WebElement catagories;
-
 	@FindBy(xpath = "//nav[@id='headerMain']/a[@id='account']")
 	WebElement account;
 	@FindBy(xpath = "//ul[@class='NavigationList-sc-1ltyzy8-0 iHsBIj']/li[1]")

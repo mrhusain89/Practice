@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 0.833 sec <<< FAILURE!
-beforeClass(practice.test.IntegrationTest)  Time elapsed: 0.553 sec  <<< FAILURE!
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 0.65 sec <<< FAILURE!
+beforeClass(practice.test.IntegrationTest)  Time elapsed: 0.42 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at practice.test.BaseTest.beforeClass(BaseTest.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

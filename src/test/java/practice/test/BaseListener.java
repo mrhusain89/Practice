@@ -1,10 +1,15 @@
 package practice.test;
 
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class BaseListener implements ITestListener {
+import utility.Shared;
+
+public abstract class BaseListener implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		System.out.println(result.getName()+"isStarting");
@@ -18,10 +23,11 @@ public class BaseListener implements ITestListener {
 		
 	}
 
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailure(ITestResult result,WebDriver driver) throws IOException {
 		if(result.getStatus()==ITestResult.FAILURE) {
 			System.out.println(result.getMethod()+"has failed");
 			System.out.println("ScreenShot");
+			Shared.screenShoot(driver);
 		}
 		// TODO Auto-generated method stub
 		

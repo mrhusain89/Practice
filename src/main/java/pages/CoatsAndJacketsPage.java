@@ -9,10 +9,12 @@ import utility.Shared;
 
 public class CoatsAndJacketsPage {
 	WebDriver driver;
+	
 	public CoatsAndJacketsPage(WebDriver dr) {
 		driver = dr;
 		PageFactory.initElements(dr, this);
 	}
+	
 	
 	@FindBy(xpath= "//div[@id='mainContainer']/div[4]//ul/li[1]/a")
 	WebElement coatsAndJackets;

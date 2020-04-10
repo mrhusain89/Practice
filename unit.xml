@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="suite1" parallel="tests" thread-count="5">
+<suite name="suite1"> <!-- parallel="tests" thread-count="5" -->
 	<test name="test1">
 		<classes>
-			<class name="practice.test.SmokeTest">
+			<class name="practice.test.IntegrationTest">
 			<methods>
 			<include name="signin"></include>
 			</methods>

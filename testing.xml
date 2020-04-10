@@ -2,20 +2,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="suite1">
-<listeners>
+<!-- <listeners>
 	<listener class-name="practice.test.BaseListener">
 	</listener>
-</listeners>
+</listeners> -->
 
 
 	<test name="sampleTest">
 		<classes>
 			<class name="practice.test.SmokeTest">
-				<methods>
+				<!-- <methods>
 					<include name="search"/>
 					<exclude name="catagory"/>
 					<exclude name="signin"/>
-				</methods>
+				</methods> -->
 			</class>
 		</classes>
 
